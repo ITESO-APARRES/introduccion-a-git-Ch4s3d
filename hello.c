@@ -3,6 +3,10 @@
 
 int main(void)
 {
-    printf("Hola Mundo");
+    decirHola("Chris");
     return 0;
+}
+
+decirHola(char* nombre){
+    printf("Hola %s, ¿Que tal?", nombre);   
 }
